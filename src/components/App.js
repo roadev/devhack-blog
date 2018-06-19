@@ -1,13 +1,14 @@
 import React from 'react';
 import Title from './Title';
+import Paragraph from './Paragraph';
 
 // const Title = ({ title, styles }) => (
 //   <h1 style={styles}>{title}</h1>
 // );
 
-const Paragraph = ({ body, styles }) => (
-  <p style={styles}>{body}</p>
-)
+// const Paragraph = ({ body, styles }) => (
+//   <p style={styles}>{body}</p>
+// )
 
 // stateless component
 const App = ({ title, body }) => (
